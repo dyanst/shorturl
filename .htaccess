@@ -1,10 +1,15 @@
-RewriteEngine on 
-RewriteRule ^about                about.php [L]
-RewriteRule ^api-about            api-about.php [L]
-RewriteRule ^contact              contact.php [L]
-RewriteRule ^tos                  tos.php [L]
-RewriteRule ^([^/.]+)/?$          link.php?id=$1 [L]
-RewriteRule ^404                  404.php [L]
-Options -Indexes
-ErrorDocument 404 https://short.wlul.buzz/404
-ErrorDocument 403 https://short.wlul.buzz/404
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks -Multiviews
+  RewriteEngine on 
+  RewriteRule ^about                about.php [L]
+  RewriteRule ^api-about            api-about.php [L]
+  RewriteRule ^contact              contact.php [L]
+  RewriteRule ^tos                  tos.php [L]
+  RewriteRule ^([^/.]+)/?$          link.php?id=$1 [L]
+  RewriteRule ^404                  404.php [L]
+  Options -Indexes
+  ErrorDocument 404 https://short.wlul.buzz/404
+  ErrorDocument 403 https://short.wlul.buzz/404
+</IfModule>
+
+
