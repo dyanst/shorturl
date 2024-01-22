@@ -6,5 +6,5 @@ RewriteRule ^tos                  tos.php [L]
 RewriteRule ^([^/.]+)/?$          link.php?id=$1 [L]
 RewriteRule ^404                  404.php [L]
 Options -Indexes
-ErrorDocument 404 http://127.0.0.1:8001/404
-ErrorDocument 403 http://127.0.0.1:8001/404
+ErrorDocument 404 https://short.wlul.buzz/404
+ErrorDocument 403 https://short.wlul.buzz/404
