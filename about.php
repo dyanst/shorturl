@@ -56,10 +56,8 @@ $info = $db->fetch_array($data);
                             <h2 class="modal-title" id="myModalLabel">关于我们</h2>
                         </div>
                         <div class="modal-body" style="min-height:10%; max-height:350px; overflow-y:scroll; overflow-x:none; position:relative;">
-                            <p><strong>奶油短网址</strong></p>
+                            <p><strong>短网址</strong></p>
                             <p style="margin-left: 25px">主要为资源分享提供网址转换服务</p>
-                            <p><strong>获取更多资源</strong></p>
-                            <p style="margin-left: 25px">请访问 <a href="https://www.naiyou001.tk">奶油博客</a> </p>
                         </div>
 
                     </div><!-- /.modal-content -->
