@@ -38,7 +38,7 @@ CREATE TABLE `ads` (
 --
 
 INSERT INTO `ads` (`ad1`, `ad2`, `ad3`, `ad4`) VALUES
-('<h2>这是什么？ - 奶油短链接</h2><p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> </p>', '<h2>这是什么？ - 奶油短链接</h2><p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> </p>', '<h2>这是什么？ - 奶油短链接</h2><p></p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> <p></p><p>ads 300x250 recommended </p> ', '<h2>这是什么？ - 奶油短链接</h2><p></p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> <p></p><p>ads 300x250 recommended </p> ');
+('<h2>这是什么？</h2><p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> </p>', '<h2>这是什么？ </h2><p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> </p>', '<h2>这是什么？</h2><p></p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> <p></p><p>ads 300x250 recommended </p> ', '<h2>这是什么？</h2><p></p><h4>这里可以添加你所需要的内容展示。比如博客跳转、广告、自媒体频道等</h4> <p></p><p>ads 300x250 recommended </p> ');
 
 -- --------------------------------------------------------
 
@@ -81,7 +81,7 @@ CREATE TABLE `settings` (
 --
 
 INSERT INTO `settings` (`name`, `URL`, `redirect`, `admin_user`, `admin_pass`, `logo_url`, `logo_type`, `email`, `cstm-style`,`wait`) VALUES
-('Shortny', 'https://www.naiyou001.tk', 1, 'admin', '$2y$10$ZVz0jEQTGiYAjfO0bbhtt.QuLXeze6Q5E/DU7P8WAQ/FwepEeJ8fq', 'img/logo-light.png;img/logo-dark.png', 1, 'example@email.com', 'body {\r\n  background-color: #f1f1f1;\r\n}', 10);
+('Shortny', '127.0.0.1', 1, 'admin', '$2y$10$ZVz0jEQTGiYAjfO0bbhtt.QuLXeze6Q5E/DU7P8WAQ/FwepEeJ8fq', 'img/logo-light.png;img/logo-dark.png', 1, 'example@email.com', 'body {\r\n  background-color: #f1f1f1;\r\n}', 10);
 
 --
 -- Indexes for dumped tables
